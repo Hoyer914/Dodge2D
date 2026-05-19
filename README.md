@@ -5,7 +5,6 @@
 
 A simple 2D dodge game built in Unity where the player avoids falling objects and survives for as long as possible. Use **A/D** or **Left/Right Arrow Keys** to move. Press **Space** to restart after game over.
 
-
 ## Gameplay
 
 The objective is simple:
@@ -36,3 +35,15 @@ The objective is simple:
 - Collision handling
 - Prefab spawning systems
 - Basic gameplay architecture
+
+## Important
+
+If you see a TextMesh Pro font import error when opening the project, go to:
+Window → TextMeshPro → Import TMP Essential Resources
+
+Unity will automatically re-import the required TMP assets.
+
+After opening the project in Unity, go to:
+Assets → Scenes → SampleScene
+
+Press the Play button to run the game.
